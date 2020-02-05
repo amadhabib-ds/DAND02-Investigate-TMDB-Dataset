@@ -15172,13 +15172,19 @@ dtype: int64</pre>
 <li>Drama, comedy, and thriller are the most frequent/popular genres among makers  </li>
 </ol>
 </blockquote>
+<h3 id="Limitations">Limitations<a class="anchor-link" href="#Limitations">&#182;</a></h3><p>This analysis have its limitations and some of them are presented as under: <br></p>
+<ol>
+<li>I believe the data was not exausitive and the sample size (movie records) were not complete and we can argue that this analysis does not incorporate all the movies.</li>
+<li>Revenue_adj and budget_adj had so many nan values and these values cannot be correctly imputed with the existing data, beacuse each movie's budget and revenue is independent of other movies.</li>
+<li>More extensive research/questions such as 'most frequent cast associated with popular movies', 'Average revenue', and 'Average budget' can improve our findings as well. </li>
+</ol>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[237]:</div>
+<div class="prompt input_prompt">In&nbsp;[238]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">subprocess</span> <span class="kn">import</span> <span class="n">call</span>
@@ -15195,7 +15201,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[237]:</div>
+    <div class="prompt output_prompt">Out[238]:</div>
 
 
 
